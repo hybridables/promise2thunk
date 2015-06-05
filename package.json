@@ -1,0 +1,30 @@
+{
+  "name": "promise2thunk",
+  "version": "0.0.0",
+  "description": "Convert (transform) promise to thunk, just like was in co@3",
+  "repository": "tunnckoCore/promise2thunk",
+  "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "standard && node test.js"
+  },
+  "dependencies": {
+    "is-promise": "~2.0.0"
+  },
+  "devDependencies": {
+    "assertit": "^0.1.0",
+    "bluebird": "^2.9.27",
+    "then-parse-json": "^1.0.2"
+  },
+  "keywords": [
+    "co",
+    "convert",
+    "promise",
+    "promisify",
+    "thunk",
+    "thunkify",
+    "transform",
+    "util"
+  ]
+}
