@@ -17,6 +17,16 @@ npm test
 
 ```js
 var promise2thunk = require('promise2thunk')
+var parseJson = require('then-parse-json')
+
+var promise = parseJson('{"foo":"bar"}')
+var thunk = promise2thunk(promise)
+
+thunk(function (err, res) {
+  console.log(err) //=> null
+  console.log(res) //=> { foo: 'bar' }
+  done()
+})
 ```
 
 
