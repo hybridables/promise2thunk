@@ -1,6 +1,6 @@
 {
   "name": "promise2thunk",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Convert (transform) promise to thunk, just like was in co@3",
   "repository": "tunnckoCore/promise2thunk",
   "author": "Charlike Mike Reagent <@tunnckoCore> (http://www.tunnckocore.tk)",
