@@ -10,7 +10,7 @@
     "test": "standard && node test.js"
   },
   "dependencies": {
-    "is-promise": "~2.0.0"
+    "is-promise": "~2.1.0"
   },
   "devDependencies": {
     "assertit": "^0.1.0",
