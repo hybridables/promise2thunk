@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "assertit": "^0.1.0",
-    "bluebird": "^2.9.27",
+    "bluebird": "^3.4.6",
     "then-parse-json": "^1.0.2"
   },
   "keywords": [
